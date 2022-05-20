@@ -93,17 +93,8 @@ test('Divides 4/(-2) and returns -2', () => {
 });
 
 
-test('Divides 2/0 and returns 0', () => {
-    function divZero() {
-        AOp.div(2,0)
-    }
-
-    try {
-        divZero();
-    } catch (error) {
-        expect(error).toBeInstanceOf(Error);
-        expect(error).toHaveProperty('message', 'Undefined, divisor cant be 0');
-    }
+test('Divides 2/0 and returns undefined', () => {
+    expect(AOp.div(2,0)).toBeUndefined();
 });
 
 test('Divides 0/2 and returns 0', () => {

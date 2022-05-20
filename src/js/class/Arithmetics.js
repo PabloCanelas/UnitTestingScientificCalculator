@@ -28,7 +28,7 @@ export default class ArithmeticOperators {
             throw new Error("Type numbers only")
         }
         if(b===0){
-            throw new Error("Undefined, divisor cant be 0")
+            return undefined
         }
         return (a / b)
     }
