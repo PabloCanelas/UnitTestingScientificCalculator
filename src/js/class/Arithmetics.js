@@ -12,6 +12,7 @@ export default class ArithmeticOperators {
         if (isNaN(a) || isNaN(b)) {
             throw new Error("Type numbers only")
         }
+        
         return (a - b)
     }
 
@@ -25,6 +26,9 @@ export default class ArithmeticOperators {
     div(a, b) {
         if (isNaN(a) || isNaN(b)) {
             throw new Error("Type numbers only")
+        }
+        if(b===0){
+            return undefined
         }
         return (a / b)
     }
