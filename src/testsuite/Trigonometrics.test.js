@@ -155,7 +155,7 @@ test('Evaluates arccos of c and returns error', () => {
     }
 });
 
-//arcsin
+/*ARCsen TEST*/
 test('Evaluates arcsin of 0 and returns 0', () => {
     expect(TOp.arcsin(0)).toBe(0);
 });
@@ -177,7 +177,7 @@ test('Evaluates arcsin of c and returns error', () => {
     }
 });
 
-//arctan
+/*ARCTAN TEST*/
 test('Evaluates arctan of 0 and returns 0', () => {
     expect(TOp.arctan(0)).toBe(0);
 });
@@ -199,7 +199,7 @@ test('Evaluates arctan of c and returns error', () => {
     }
 });
 
-//hyparctan
+/*HYPARCTAN TEST*/
 test('Evaluates hyparctan of 0 and returns 0', () => {
     expect(TOp.hyparctan(0)).toBe(0);
 });
@@ -221,7 +221,7 @@ test('Evaluates hyparctan of c and returns error', () => {
     }
 });
 
-//hyparccos
+/*HYPARCOS TEST*/
 test('Evaluates hyparccos of 1 and returns 0', () => {
     expect(TOp.hyparccos(1)).toBe(0);
 });
@@ -243,7 +243,7 @@ test('Evaluates hyparccos of c and returns error', () => {
     }
 });
 
-//hyparcsin
+/*HYPARCSEN TEST*/
 test('Evaluates hyparcsin of 1 and omething close to 0.88', () => {
     expect(TOp.hyparcsin(1)).toBeCloseTo(0.88);
 });
