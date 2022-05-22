@@ -1,7 +1,7 @@
 import powerOperators from '../js/class/Power'
 const POp = new powerOperators();
 
-//Pow
+/*POW TEST*/
 test('Adds 2 base and 3 exponent then returns 8', () => {
     expect(POp.pow(2,3)).toBe(8);
 });
@@ -60,7 +60,7 @@ test('2 base and asd exponent and returns error', () => {
     }
 });
 
-//squared
+/*SQUARED TEST*/
 test('Adds 2 base then returns 4', () => {
     expect(POp.squared(2)).toBe(4);
 });
@@ -87,7 +87,7 @@ test('asd base and returns error', () => {
     }
 });
 
-//cubed
+/*CUBED TEST*/
 test('Adds 2 base then returns 8', () => {
     expect(POp.cubed(2)).toBe(8);
 });
@@ -114,7 +114,7 @@ test('asd base and returns error', () => {
     }
 });
 
-//sqrt
+/*SQRT TEST*/
 test('Adds 4 radicand then returns 2', () => {
     expect(POp.sqrt(4)).toBe(2);
 });
@@ -149,7 +149,7 @@ test('asd radicant and returns error', () => {
     }
 });
 
-//root
+/*ROOT TEST*/
 test('Adds 32 radicand and 5 index then returns 2', () => {
     expect(POp.root(32,5)).toBe(2);
 });
@@ -232,7 +232,7 @@ test('Adds 2 radicant and asd index and returns error', () => {
 
 });
 
-//cubic root
+/*CUBIC TEST*/
 test('Adds 27 radicand then returns 3', () => {
     expect(POp.cubicRoot(27)).toBe(3);
 });
@@ -267,7 +267,7 @@ test('asd radicant and returns error', () => {
     }
 });
 
-//inverse
+/*INVERSE TEST*/
 test('Adds 2 base then returns 0.5', () => {
     expect(POp.inverse(2)).toBe(0.5);
 });
@@ -302,7 +302,7 @@ test('asd base and returns error', () => {
     }
 });
 
-//inverse
+/*INVERSE TEST*/
 test('Adds 2 base 1 argument then returns 0.5', () => {
     expect(POp.log(2,1)).toBe(0.5);
 });

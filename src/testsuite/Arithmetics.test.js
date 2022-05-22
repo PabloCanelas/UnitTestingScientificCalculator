@@ -1,7 +1,7 @@
 import ArithmeticOperators from '../js/class/Arithmetics';
 const AOp = new ArithmeticOperators();
 
-//Sum
+/*SUM TEST*/
 test('Adds 1+2 and returns 3', () => {
     expect(AOp.sum(1,2)).toBe(3);
 });
@@ -29,7 +29,7 @@ test('Adds c + 1 and throws error', () => {
 });
 
 
-//Sub
+/*SUBSTRACT TEST*/
 test('Substracts 1-2 and returns -1', () => {
     expect(AOp.sub(1,2)).toBe(-1);
 });
@@ -56,7 +56,7 @@ test('Substracts c - 1 and throws error', () => {
     }
 });
 
-//mult
+/*MULTIPLICATION TEST*/
 test('Multiplies 1*2 and returns 2', () => {
     expect(AOp.mult(1,2)).toBe(2);
 });
@@ -83,7 +83,7 @@ test('Multiplies c - 1 and throws error', () => {
     }
 });
 
-//div
+/*DIVISON TEST*/
 test('Divides 1/2 and returns 0.5', () => {
     expect(AOp.div(1,2)).toBe(0.5);
 });
@@ -114,7 +114,7 @@ test('Divides c - 1 and throws error', () => {
     }
 });
 
-//Res
+/*RESIDUE TEST*/
 test('Calculates residue of 1/2 and returns 1', () => {
     expect(AOp.res(1,2)).toBe(1);
 });

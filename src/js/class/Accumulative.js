@@ -5,6 +5,9 @@ export default class AccumulativeOperations {
             throw new Error("Type numbers only")
         }
         let sum = 0;
+        if (start > end || start< 0 || end <0) {
+            throw new Error("Invalid parameters")
+        }
         for (let i = start; i < end; i++) {
             sum += number;
         }
@@ -16,6 +19,9 @@ export default class AccumulativeOperations {
             throw new Error("Type numbers only")
         }
         let pro = 1;
+        if (start> end || start*end < 0) {
+            throw new Error("Invalid parameters")
+        }
         for (let i = start; i < end; i++) {
             pro *= number;
         }
@@ -25,6 +31,9 @@ export default class AccumulativeOperations {
     fact(number) {
         if (isNaN(number)) {
             throw new Error("Type numbers only")
+        }
+        if (number<0) {
+            throw new Error("Factorial of a negative number doesn't exists")
         }
         var total = 1;
         for (let i = 1; i <= number; i++) {
@@ -37,6 +46,10 @@ export default class AccumulativeOperations {
         if (isNaN(number)) {
             throw new Error("Type numbers only")
         }
+        if (number<0) {
+            throw new Error("Factorial of a negative number doesn't exists")
+        }
+
         if (number == 0){ 
             return 1; 
         }

@@ -1,6 +1,7 @@
 import TrigonometricOperations from '../js/class/Trigonometric';
 const TOp = new TrigonometricOperations();
-//Cos
+/*COS TEST*/
+
 test('Evaluates cos of 0 and returns 1', () => {
     expect(TOp.cos(0)).toBe(1);
 });
@@ -44,7 +45,7 @@ test('Evaluates sin of c and returns error', () => {
     }
 });
 
-//tan
+/*TAN TEST*/
 test('Evaluates tan of 0 and returns 0', () => {
     expect(TOp.tan(0)).toBe(0);
 });
@@ -66,7 +67,7 @@ test('Evaluates tan of c and returns error', () => {
     }
 });
 
-//hypcos
+/*HYPCOS TEST*/
 test('Evaluates hypcos of 0 and returns 1', () => {
     expect(TOp.hypcos(0)).toBe(1);
 });
@@ -88,7 +89,7 @@ test('Evaluates tan of c and returns error', () => {
     }
 });
 
-//hypsin
+/*HYPSEN TEST*/
 test('Evaluates hypsin of 0 and returns 0', () => {
     expect(TOp.hypsin(0)).toBe(0);
 });
@@ -110,7 +111,7 @@ test('Evaluates tan of c and returns error', () => {
     }
 });
 
-//hyptan
+/*HYPTAN TEST*/
 test('Evaluates hyptan of 0 and returns 0', () => {
     expect(TOp.hyptan(0)).toBe(0);
 });
@@ -132,7 +133,7 @@ test('Evaluates hyptan of c and returns error', () => {
     }
 });
 
-//arccos
+/*ARCCOS TEST*/
 test('Evaluates arccos of 0 and returns number close to 1.57', () => {
     expect(TOp.arccos(0)).toBeCloseTo(1.57);
 });
